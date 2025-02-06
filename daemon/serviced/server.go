@@ -14,8 +14,6 @@ import (
 	cache "gitlab.com/sibsfps/spc/spc-1/cache"
 )
 
-// TODO
-
 type ServerCache interface {
 	api.APICacheInterface
 	Config() cache.Config
