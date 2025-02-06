@@ -8,8 +8,6 @@ import (
 	service "gitlab.com/sibsfps/spc/spc-1/daemon/serviced"
 )
 
-// TODO
-
 func main() {
 
 	exitCode := run()
