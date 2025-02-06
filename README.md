@@ -1,4 +1,4 @@
-# SIBS Performance Challenge 1
+# Cache service implementation
 
 ## Build and run
 
