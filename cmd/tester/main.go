@@ -9,6 +9,11 @@ import (
 	"gitlab.com/sibsfps/spc/spc-1/cmd/tester/tests"
 )
 
+/*
+s: cache service -s
+w: worker service -w
+*/
+
 var serviceHost = flag.String("s", "", "ip:port of Service")
 var workersHost = flag.String("w", "", "ip:port of Workers")
 

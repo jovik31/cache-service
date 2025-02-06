@@ -135,7 +135,7 @@ func (s *Server) Start() {
 	errChan := make(chan error, 1)
 
 	e.Logger = s.log.MakeEchoLogger()
-
+	
 	go func() {
 		err := e.StartServer(&server)
 		errChan <- err

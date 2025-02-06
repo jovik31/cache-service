@@ -16,6 +16,7 @@ type CommonInterface interface {
 }
 
 func (h *Handlers) HealthCheck(ctx echo.Context) error {
+
 	w := ctx.Response().Writer
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
